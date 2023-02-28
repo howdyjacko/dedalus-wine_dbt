@@ -19,3 +19,13 @@ models:
             tests:
                 - unique
                 - not_null
+
+    - name: stg_recharge_discounts
+      description: "test SQL query on 1-10-20"
+      columns:
+          - name: id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+              
