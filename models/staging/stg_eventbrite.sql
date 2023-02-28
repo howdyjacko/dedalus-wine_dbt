@@ -5,7 +5,7 @@ with eventbrite_customers as (
     first_name
     last_name
 
-from [eventbrite_attendees_table]
+from dedalus-data.eventbrite_attendees
 )
 
 select * from eventbrite_attendees_table
