@@ -3,10 +3,8 @@
 --1. Find style guide for stg files
 --2. this should be a select * statement
 --3. once you find the instructions, paste the URL for documentation purposes. 
-
 with eventbrite_customers as (
-    
-    select *
+  select
     Order_ID,
     Order_Date,
     Attendee_Status,
@@ -18,8 +16,10 @@ with eventbrite_customers as (
     Ticket_Price,
     Buyer_Name,
     Buyer_Email
-
-from dedalus-data.eventbrite_attendees
+  from
+    dedalus - data.eventbrite_attendees
 )
-
-select * from eventbrite_attendees_table
+select
+  *
+from
+  eventbrite_attendees_table
