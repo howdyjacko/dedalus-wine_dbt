@@ -3,6 +3,9 @@
 --1. Find style guide for stg files
 --2. this should be a select * statement
 --3. once you find the instructions, paste the URL for documentation purposes. 
+
+-- nExt steps: 
+--1. Look at how the table is referenced on line 9 with your CoRise course SQL 
 with eventbrite_customers as (
   select
     Order_ID,
